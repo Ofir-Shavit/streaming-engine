@@ -1,8 +1,8 @@
 {
   "name": "streaming-engine",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "streaming-engine framework",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "ts-node src/index.ts",
     "lint": "eslint src/**/*.ts --fix --quiet",
@@ -11,7 +11,7 @@
     "start": "node dist/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ofir Shavit",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^16.4.1",
