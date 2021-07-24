@@ -1,4 +1,4 @@
-import {FoldSum, FoldMedian, FixedEventWindow, Filter} from './buildingBlocks';
+import { FoldSum, FoldMedian, FixedEventWindow, Filter } from './buildingBlocks';
 
 export type Predicate = (num: number) => boolean;
 

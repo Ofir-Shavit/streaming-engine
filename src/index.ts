@@ -1,5 +1,5 @@
-import StreamingEngine, {FileSink, Filter, FixedEventWindow, FoldMedian, FoldSum} from './StreamingEngine';
-import {BuildingBlockType} from './StreamingEngine/types';
+import StreamingEngine, { FileSink, Filter, FixedEventWindow, FoldMedian, FoldSum } from './StreamingEngine';
+import { BuildingBlockType } from './StreamingEngine/types';
 
 const buildingBlocks: BuildingBlockType[] = [
     new Filter((i) => i > 0),
