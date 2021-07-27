@@ -2,7 +2,7 @@
 
 Streaming Engine Framework for [Node-JS](http://nodejs.org).
 
-Stream integers throw custom pipeline composed as your wish!
+Stream integers through custom pipeline composed as your wish!
 
 The stream takes in integers from the console and pass them throw the pipeline. The pipeline is a chain of building
 blocks, passing information from one to another.
